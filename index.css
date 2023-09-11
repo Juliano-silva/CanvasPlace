@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+#Sidebar{
+    background-color: rgb(44, 40, 40);
+    color: white;
+    float: left;
+    word-wrap: break-word;
+    width: 10vh;
+    height: 100%;
+    position: fixed;
+    z-index: 2;
+    overflow: auto;
+}
+#Sidebar::-webkit-scrollbar{
+    width: 0px;
+}
+#Body{
+    margin: 0;
+    padding: 0;
+    border: 0.2vh solid transparent;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    position: absolute;
+}
+.Pixel{
+    position: absolute;
+    width: 1vh;
+    height: 1vh;
+    padding: 0;
+    margin: 0;
+}
+input{
+    width: 100%;
+    height: 4vh;
+    background-color: transparent;
+    border-color: transparent;
+}
+button{
+    all: unset;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 1.5vh;
+    background: gray;
+    padding: 0.2vh;
+    cursor: pointer;
+    color: white;
+}
+button:hover{
+    color: yellow;
+    background-color: aqua;
+}
+#Colors{
+    display: inline-block;
+}
